@@ -4,6 +4,7 @@ require 'rack/test'
 require 'capybara/rspec'
 require 'capybara/dsl'
 
+
 Capybara.javascript_driver = :poltergeist
 
 RSpec.configure do |config|
